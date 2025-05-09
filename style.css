@@ -1,9 +1,24 @@
-.blue {
-			background-color:blue
+/* Circle Styling */
+.circle {
+    width: 200px;           /* Set the size of the circle */
+    height: 200px;          /* Set the size of the circle */
+    border-radius: 50%;     /* Makes the div a circle */
+    background-color: blue; /* Blue background */
+    display: flex;          /* Flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center;    /* Vertically center content */
+    margin-bottom: 20px;    /* Space between the circle and the image */
 }
-.circle{
-			border-radius:50%;
-			width:500px;
-			height:500px;
-            
+
+/* Image Styling */
+img {
+    width: 50%;  /* Adjust image size */
+    height: 50%; /* Maintain aspect ratio */
+    display: block; /* Make sure the image behaves like a block-level element */
+    margin-top: 10px; /* Optional: Space between the circle and image */
+}
+
+/* Optional: For the container that holds both circle and image */
+.circle-container {
+    text-align: center; /* Center content */
 }
